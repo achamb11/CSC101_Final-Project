@@ -34,6 +34,8 @@ class State:
     #             "Num of multi households", self.multi_household,
     #             "% of single with access", self.single_access,
     #             "% of multi with access", self.multi_access)
+
+
 allData = [
     State("Alabama", 1428595, 459773, 61, 10),
     State("Alaska", 210501, 47484, 90, 18),
