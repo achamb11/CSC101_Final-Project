@@ -94,13 +94,3 @@ allData = [
 
 
 
-# TESTING
-class TestCases(unittest.TestCase):
-
-    def test_calculate_total(self):
-        result = main.calculate_total(allData, "Utah")
-        self.assertAlmostEqual(result, 698233.77)
-
-    def test_find_highest(self):
-        result = find_highest(allData)
-        self.assertEqual(len(result), 3)

@@ -32,10 +32,10 @@ class TestCases(unittest.TestCase): #Vidushi Goyal #not sure why tests are not w
 
     def test_find_highest(self):
         result = main.find_highest(data.allData)
-        self.assertAlmostEqual(result, )
+        self.assertAlmostEqual(result, ["Delaware","Maryland","California"])
 
     def test_find_lowest(self):
         result = main.find_highest(data.allData)
-        self.assertAlmostEqual(result, )
+        self.assertAlmostEqual(result, ["Missipi","Montana","North Dakota"])
 if __name__ == '__main__':
     unittest.main()
