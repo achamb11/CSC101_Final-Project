@@ -43,7 +43,7 @@ def calculate_average(places) -> float:
         return perc
 
 # EXAMPLES FOR calculate_average
-# print("Average % in",data.allData[2].state_name,calculate_average(data.allData[2]))
+#print("Average % in",data.allData[2].state_name,calculate_average(data.allData[2]))
 # print("Average % for all states:",calculate_average(data.allData))
 
 #identifies the 3 highest  states with access
@@ -73,14 +73,15 @@ def find_lowest(places) -> list:  #Vidushi Goyal
     return [sorted_list[0],sorted_list[1],sorted_list[2]]
 
 #identifies the state type has "less" or "more" access than average
-def check_state(places: list[data.State], number:int) -> str:  #Vidushi Goyal
+def check_state(places: list[data.State]) -> str:  #Vidushi Goyal
     overall_avg = calculate_average(places)
-    result_names = ""
+    result_names = {}
     for place in places:
         place_avg = calculate_average(place)
         if place_avg > overall_avg:
-            result_names += place.state_name + ":More" #to account for that it can be multiple states
+            result_names[place.state_name] = True #to account for that it can be multiple states
         elif place_avg < overall_avg:
-            result_names += place.state_name + ":Less" #to account for that it can be multiple states
+            result_names[place.state_name]= False #to account for that it can be multiple states
     return result_names
 
+#print(check_state(data.allData))
