@@ -82,5 +82,5 @@ def check_state(places: list[data.State], number:int) -> str:  #Vidushi Goyal
         if place_avg > overall_avg and comparison == "more":
             result_names += place.state_name + ", " #to account for that it can be multiple states
         elif place_avg < overall_avg and comparison == "less":
-            result_name += state.state_name + ", " #to account for that it can be multiple states
+            result_names += place.state_name + ", " #to account for that it can be multiple states
     return result_names #maybe include strip to clean it up?
