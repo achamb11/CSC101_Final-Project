@@ -36,6 +36,6 @@ class TestCases(unittest.TestCase): #Vidushi Goyal #not sure why tests are not w
 
     def test_find_lowest(self):
         result = main.find_highest(data.allData)
-        self.assertAlmostEqual(result, ["Missipi","Montana","North Dakota"])
+        self.assertAlmostEqual(result, ["Mississipi","Montana","North Dakota"])
 if __name__ == '__main__':
     unittest.main()

@@ -49,8 +49,6 @@ def calculate_average(places) -> float:
 #identifies the 3 highest  states with access
 def find_highest(places) -> list:  #Vidushi Goyal
     sorted_list = []
-    for place in places:
-        sorted_list.append(place)
     for i in range (1,len(sorted_list)):
         key_state = sorted_list[i]
         key_val = calculate_average(key_state)
@@ -62,10 +60,8 @@ def find_highest(places) -> list:  #Vidushi Goyal
 #identifies the 3 lowest states with access
 def find_lowest(places) -> list:  #Vidushi Goyal
     sorted_list = []
-    for place in places:
-        sorted.list.append(place)
-    for i in range (1,len(sorted.list)):
-        key_state = sorted.list[i]
+    for i in range (1,len(sorted_list)):
+        key_state = sorted_list[i]
         key_val = caulcuate_average(key_state)
 
         j = i - 1
