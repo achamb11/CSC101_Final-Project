@@ -77,7 +77,7 @@ def find_lowest(places) -> list:  #Vidushi Goyal
     return [sorted_list[0],sorted_list[1],sorted_list[2]]
 
 #identifies the state type has "less" or "more" access than average
-def check_state(places: list[states], number:int) -> str:  #Vidushi Goyal
+def check_state(places: list[data.State], number:int) -> str:  #Vidushi Goyal
     overall_avg = calculate_average(places)
 
     result_names = ""
