@@ -73,14 +73,13 @@ def find_lowest(places) -> list:  #Vidushi Goyal
     return [sorted_list[0],sorted_list[1],sorted_list[2]]
 
 #identifies the state type has "less" or "more" access than average
-def check_state(places: list[data.State], number:int) -> str:  #Vidushi Goyal
+def check_state(places: list[data.State]) -> str:  #Vidushi Goyal
     overall_avg = calculate_average(places)
-
     result_names = ""
     for place in places:
         place_avg = calculate_average(place)
-        if state_avg > overall_avg and comparison == "more":
-            result_names += state.state_name + ", " #to account for that it can be multiple states
-        elif state_avg < overall_avg and comparison == "less":
-            result_name += state.state_name + ", " #to account for that it can be multiple states
+        if place_avg > overall_avg:
+            result_names += state.state_name + ":More" #to account for that it can be multiple states
+        elif place_avg < overall_avg:
+            result_name += state.state_name + ":Less" #to account for that it can be multiple states
     return result_names #maybe include strip to clean it up?
