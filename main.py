@@ -83,4 +83,4 @@ def check_state(places: list[data.State]) -> str:  #Vidushi Goyal
         elif place_avg < overall_avg:
             result_name += state.state_name + ":Less" #to account for that it can be multiple states
     return result_names #maybe include strip to clean it up?
-#
+#####
