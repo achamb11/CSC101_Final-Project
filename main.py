@@ -84,4 +84,3 @@ def check_state(places: list[data.State], number:int) -> str:  #Vidushi Goyal
             result_names += place.state_name + ":Less" #to account for that it can be multiple states
     return result_names
 
-##
