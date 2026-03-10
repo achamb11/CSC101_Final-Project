@@ -62,11 +62,11 @@ def find_lowest(places) -> list:  #Vidushi Goyal
     sorted_list = []
     for i in range (1,len(sorted_list)):
         key_state = sorted_list[i]
-        key_val = caulcuate_average(key_state)
+        key_val = calculate_average(key_state)
 
         j = i - 1
-        while j >= 0 and calculate_average(sorted.list[j]) < key_val:
-            sorted_list[j + 1] = sorted.list[j]
+        while j >= 0 and calculate_average(sorted_list[j]) < key_val:
+            sorted_list[j + 1] = sorted_list[j]
             j -= 1
         sorted_list[j+1] = key_state
 
@@ -79,8 +79,8 @@ def check_state(places: list[data.State], number:int) -> str:  #Vidushi Goyal
     result_names = ""
     for place in places:
         place_avg = calculate_average(place)
-        if state_avg > overall_avg and comparison == "more":
-            result_names += state.state_name + ", " #to account for that it can be multiple states
-        elif state_avg < overall_avg and comparison == "less":
+        if place_avg > overall_avg and comparison == "more":
+            result_names += place.state_name + ", " #to account for that it can be multiple states
+        elif place_avg < overall_avg and comparison == "less":
             result_name += state.state_name + ", " #to account for that it can be multiple states
     return result_names #maybe include strip to clean it up?
