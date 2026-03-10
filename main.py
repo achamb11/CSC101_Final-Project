@@ -10,11 +10,11 @@ def calculate_total(places) -> float: #Roxanne Chambers
     if type(places) == list:
         for place in places:
             total += (place.single_household*place.single_access)/100
-            total += (place.multi_household*place.single_access)/100
+            total += (place.multi_household*place.multi_access)/100
         return total
     elif type(places) == data.State:
         total += (places.single_household * places.single_access) / 100
-        total += (places.multi_household * places.single_access) / 100
+        total += (places.multi_household * places.multi_access) / 100
         return total
     else:
         return total
