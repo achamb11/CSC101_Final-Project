@@ -1,3 +1,5 @@
+import unittest
+import main
 
 
 # Data is taken from: The Recycling Partnership: "State of Residential Recycling 2024"
@@ -88,3 +90,17 @@ allData = [
     State("Wisconsin", 1869571, 508107, 88, 72),
     State("Wyoming", 184050, 49139, 70, 6),
 ] #Roxanne Chambers
+
+
+
+
+# TESTING
+class TestCases(unittest.TestCase):
+
+    def test_calculate_total(self):
+        result = main.calculate_total(allData, "Utah")
+        self.assertAlmostEqual(result, 698233.77)
+
+    def test_find_highest(self):
+        result = find_highest(allData)
+        self.assertEqual(len(result), 3)
