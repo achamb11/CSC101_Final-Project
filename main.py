@@ -22,7 +22,7 @@ def calculate_total(places) -> float: #Roxanne Chambers
 # EXAMPLES FOR calculate_total
 # print("Total in",data.allData[2].state_name,calculate_total(data.allData[2]))
 # print("Total for all:",calculate_total(data.allData))
-
+#
 
 def calculate_average(places) -> float: #Roxanne Chambers
     #Returns average % access from all states
@@ -46,5 +46,5 @@ def calculate_average(places) -> float: #Roxanne Chambers
 # EXAMPLES FOR calculate_average
 # print("Average % in",data.allData[2].state_name,calculate_average(data.allData[2]))
 # print("Average % for all states:",calculate_average(data.allData))
-
+#
 
