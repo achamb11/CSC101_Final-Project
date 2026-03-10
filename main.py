@@ -45,3 +45,46 @@ def calculate_average(places) -> float:
 # EXAMPLES FOR calculate_average
 # print("Average % in",data.allData[2].state_name,calculate_average(data.allData[2]))
 # print("Average % for all states:",calculate_average(data.allData))
+
+#identifies the 3 highest  states with access
+def find_highest(places) -> list:
+    sorted_list = []
+    for place in places:
+        sorted.list.append(place)
+    for i in range (1,len(sorted.list)):
+        key_state = sorted.list[i]
+        key_val = caulcuate_average(key_state)
+        j = i - 1
+        while j>= 0 and calculate_average(sorted.list[j]) > key_val:
+            sorted_list[j + 1] = key_state
+
+    return [sorted_list[-1],sorted_list[-2],sorted_list[-3]]
+#identifies the 3 lowest states with access
+def find_lowest(places) -> list:
+    sorted_list = []
+    for place in places:
+        sorted.list.append(place)
+    for i in range (1,len(sorted.list)):
+        key_state = sorted.list[i]
+        key_val = caulcuate_average(key_state)
+
+        j = i - 1
+        while j >= 0 and calculate_average(sorted.list[j]) < key_val:
+            sorted_list[j + 1] = sorted.list[j]
+            j -= 1
+        sorted_list[j+1] = key_state
+
+    return [sorted_list[0],sorted_list[1],sorted_list[2]]
+
+#identifies the state type has "less" or "more" access than average
+def check_state(places: list[states], number:int) -> str:
+    overall_avg = calculate_average(places)
+
+    result_names = ""
+    for place in places:
+        place_avg = calculate_average(place)
+        if state_avg > overall_avg and comparison == "more":
+            result_names += state.state_name + ", " #to account for that it can be multiple states
+        elif state_avg < overall_avg and comparison == "less":
+            result_name += state.state_name + ", " #to account for that it can be multiple states
+    return result_names #maybe include strip to clean it up?
