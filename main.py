@@ -79,10 +79,10 @@ def check_state(places: list[data.State], number:int) -> str:  #Vidushi Goyal
     result_names = ""
     for place in places:
         place_avg = calculate_average(place)
-        if place_avg > overall_avg and comparison == "more":
-            result_names += place.state_name + ", " #to account for that it can be multiple states
-        elif place_avg < overall_avg and comparison == "less":
-            result_names += place.state_name + ", " #to account for that it can be multiple states
+        if place_avg > overall_avg:
+            result_names += place.state_name + ":More" #to account for that it can be multiple states
+        elif place_avg < overall_avg:
+            result_names += place.state_name + ":Less" #to account for that it can be multiple states
     return result_names #maybe include strip to clean it up?
 
 ##
