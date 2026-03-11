@@ -38,12 +38,17 @@ class TestCases(unittest.TestCase): #Vidushi Goyal #not sure why tests are not w
         result = main.single_total(data.allData)
         self.assertAlmostEqual(result, 84.71105956036557)
 
-    def test_find_highest(self):
-        result = main.find_highest(data.allData)
-        self.assertAlmostEqual(result, ["Delaware","Maryland","California"])
+    def test_find_highest2(self):
+        result = main.find_highest2(data.allData)
+        self.assertAlmostEqual([result[0].state_name,result[1].state_name,result[2].state_name], ["Delaware","Maryland","Vermont"])
 
-    def test_find_lowest(self):
-        result = main.find_highest(data.allData)
-        self.assertAlmostEqual(result, ["Mississipi","Montana","North Dakota"])
+    def test_find_lowest2(self):
+        result = main.find_lowest2(data.allData)
+        self.assertAlmostEqual([result[0].state_name,result[1].state_name,result[2].state_name], ["North Dakota","Montana","Nebraska"])
+
+    def test_check_state(self):
+        result = main.check_state(data.allData)
+        self.assertTrue(result,{'Alabama': False, 'Alaska': True, 'Arizona': False, 'Arkansas': False, 'California': True, 'Colorado': False, 'Connecticut': True, 'Delaware': True, 'Florida': False, 'Georgia': False, 'Hawaii': False, 'Idaho': False, 'Illinois': True, 'Indiana': False, 'Iowa': False, 'Kansas': False, 'Kentucky': False, 'Louisiana': False, 'Maine': True, 'Maryland': True, 'Massachusetts': True, 'Michigan': False, 'Minnesota': False, 'Mississippi': False, 'Missouri': False, 'Montana': False, 'Nebraska': False, 'Nevada': False, 'New Hampshire': True, 'New Jersey': True, 'New Mexico': True, 'New York': True, 'North Carolina': True, 'North Dakota': False, 'Ohio': True, 'Oklahoma': False, 'Oregon': True, 'Pennsylvania': True, 'Rhode Island': True, 'South Carolina': False, 'South Dakota': False, 'Tennessee': False, 'Texas': False, 'Utah': False, 'Vermont': True, 'Virginia': False, 'Washington': True, 'West Virginia': False, 'Wisconsin': True, 'Wyoming': False}
+)
 if __name__ == '__main__':
     unittest.main()

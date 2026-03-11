@@ -17,15 +17,15 @@ def print_output() -> str:
         output += "Is in upper half of states with access: "
         output += str(main.check_state(data.allData)[state.state_name]) + "\n"
         output += "Is in top 3 States with access: "
-        # if state in main.find_highest(data.allData):
-        #     output += "True" + "\n"
-        #     output += "Is in lower 3 states with access: False"
-        # else:
-        #     output += "False" + "\n"
-        #     if state in main.find_lowest(data.allData):
-        #         output += "Is in lower 3 states with access: True"
-        #     else:
-        #         output += "Is in lower 3 states with access: False"
+        if state in main.find_highest2(data.allData):
+             output += "True" + "\n"
+             output += "Is in lower 3 states with access: False"
+        else:
+            output += "False" + "\n"
+            if state in main.find_lowest2(data.allData):
+                output += "Is in lower 3 states with access: True"
+            else:
+                output += "Is in lower 3 states with access: False"
         output += "\n" "\n"
 
     output += "Average Household with Access (all Households):"
@@ -35,13 +35,13 @@ def print_output() -> str:
     output += "Average Households with Access (single-family Households): "
     output += str(round(main.single_total(data.allData), 1)) + " % \n"
     output += "Overall states with best Access: "
-    # output += str(main.find_highest(data.allData)[0].state_name) + ","
-    # output += str(main.find_highest(data.allData)[1].state_name) + ","
-    # output += str(main.find_highest(data.allData)[2].state_name) + "\n"
+    output += str(main.find_highest2(data.allData)[0].state_name) + ", "
+    output += str(main.find_highest2(data.allData)[1].state_name) + ", "
+    output += str(main.find_highest2(data.allData)[2].state_name) + "\n"
     output += "Overall states with worst Access: "
-    # output += str(main.find_lowest(data.allData)[0].state_name) + ","
-    # output += str(main.find_lowest(data.allData)[1].state_name) + ","
-    # output += str(main.find_lowest(data.allData)[2].state_name) + "\n"
+    output += str(main.find_lowest2(data.allData)[0].state_name) + ", "
+    output += str(main.find_lowest2(data.allData)[1].state_name) + ", "
+    output += str(main.find_lowest2(data.allData)[2].state_name) + "\n"
 
     output += "\n" "\n"
     output += "Sustainability tip: \nMake sure your containers are clean before recycling them!"

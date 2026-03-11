@@ -77,17 +77,41 @@ def calculate_average(places) -> float:
 # print("Average % for all states:",calculate_average(data.allData))
 
 #identifies the 3 highest  states with access
-def find_highest(places) -> list:  #Vidushi Goyal
-    sorted_list = []
-    for i in range (1,len(sorted_list)):
-        key_state = sorted_list[i]
-        key_val = calculate_average(key_state)
-        j = i - 1
-        while j>= 0 and calculate_average(sorted_list[j]) > key_val:
-            sorted_list[j + 1] = key_state
+# def find_highest(places) -> list:  #Vidushi Goyal
+#     sorted_list = []
+#     for i in range (1,len(sorted_list)):
+#         key_state = sorted_list[i]
+#         key_val = calculate_average(key_state)
+#         j = i - 1
+#         while j>= 0 and calculate_average(sorted_list[j]) > key_val:
+#             sorted_list[j + 1] = key_state
+#
+#     return [sorted_list[-1],sorted_list[-2],sorted_list[-3]]
 
-    return [sorted_list[-1],sorted_list[-2],sorted_list[-3]]
+def find_highest2(places) -> list:  #Vidushi Goyal
+    sorted_list = [places[0],places[1],places[2]]
+    for i in range (3,len(places)):
+        if calculate_average(places[i])>calculate_average(sorted_list[0]):
+            sorted_list[0] = places[i]
+        elif calculate_average(places[i])>calculate_average(sorted_list[1]):
+            sorted_list[1] = places[i]
+        elif calculate_average(places[i])>calculate_average(sorted_list[2]):
+            sorted_list[2] = places[i]
+    return sorted_list
+
+def find_lowest2(places) -> list:  #Vidushi Goyal
+    sorted_list = [places[0],places[1],places[2]]
+    for i in range (3,len(places)):
+        if calculate_average(places[i])<calculate_average(sorted_list[0]):
+            sorted_list[0] = places[i]
+        elif calculate_average(places[i])<calculate_average(sorted_list[1]):
+            sorted_list[1] = places[i]
+        elif calculate_average(places[i])<calculate_average(sorted_list[2]):
+            sorted_list[2] = places[i]
+    return sorted_list
+
 #identifies the 3 lowest states with access
+
 def find_lowest(places) -> list:  #Vidushi Goyal
     sorted_list = []
     for i in range (1,len(sorted_list)):
