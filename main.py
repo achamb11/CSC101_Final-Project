@@ -19,6 +19,36 @@ def calculate_total(places) -> float: #Roxanne Chambers
     else:
         return total
 
+def multi_total(places) -> float: #Roxanne Chambers
+    total = 0
+    totalPpl = 0
+    if type(places) == list:
+        for place in places:
+            total += (place.multi_household*place.multi_access)
+            totalPpl += place.multi_household
+        return total/totalPpl
+    elif type(places) == data.State:
+        total += (places.multi_household * places.multi_access)
+        totalPpl += place.multi_household
+        return total/totalPpl
+    else:
+        return total
+
+def single_total(places) -> float: #Roxanne Chambers
+    total = 0
+    totalPpl = 0
+    if type(places) == list:
+        for place in places:
+            total += (place.single_household*place.single_access)
+            totalPpl += place.single_household
+        return total/totalPpl
+    elif type(places) == data.State:
+        total += (places.single_household * places.single_access)
+        totalPpl += places.single_household
+        return total/totalPpl
+    else:
+        return total
+
 # EXAMPLES FOR calculate_total
 #print("Total in",data.allData[2].state_name,calculate_total(data.allData[2]))
 #print("Total for all:"calculate_total(data.allData))
@@ -69,7 +99,6 @@ def find_lowest(places) -> list:  #Vidushi Goyal
             sorted_list[j + 1] = sorted_list[j]
             j -= 1
         sorted_list[j+1] = key_state
-
     return [sorted_list[0],sorted_list[1],sorted_list[2]]
 
 #identifies the state type has "less" or "more" access than average

@@ -30,6 +30,14 @@ class TestCases(unittest.TestCase): #Vidushi Goyal #not sure why tests are not w
         result = main.calculate_average(data.allData)
         self.assertAlmostEqual(result, 72.61,2)
 
+    def test_multi_total(self): #Roxanne Chambers
+        result = main.multi_total(data.allData)
+        self.assertAlmostEqual(result, 36.398061505161344)
+
+    def test_single_total(self): #Roxanne Chambers
+        result = main.single_total(data.allData)
+        self.assertAlmostEqual(result, 84.71105956036557)
+
     def test_find_highest(self):
         result = main.find_highest(data.allData)
         self.assertAlmostEqual(result, ["Delaware","Maryland","California"])
