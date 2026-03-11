@@ -1,6 +1,3 @@
-import unittest
-import main
-
 
 # Data is taken from: The Recycling Partnership: "State of Residential Recycling 2024"
 

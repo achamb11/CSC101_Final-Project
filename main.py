@@ -48,7 +48,7 @@ def calculate_average(places) -> float:
 
 #identifies the 3 highest  states with access
 def find_highest(places) -> list:  #Vidushi Goyal
-    sorted_list = list(places)
+    sorted_list = []
     for i in range (1,len(sorted_list)):
         key_state = sorted_list[i]
         key_val = calculate_average(key_state)
@@ -56,25 +56,26 @@ def find_highest(places) -> list:  #Vidushi Goyal
         while j>= 0 and calculate_average(sorted_list[j]) > key_val:
             sorted_list[j + 1] = key_state
 
-    return [sorted_list[0],sorted_list[1],sorted_list[2]]
+    return [sorted_list[-1],sorted_list[-2],sorted_list[-3]]
 #identifies the 3 lowest states with access
 def find_lowest(places) -> list:  #Vidushi Goyal
-    sorted_list = list(places)
+    sorted_list = []
     for i in range (1,len(sorted_list)):
         key_state = sorted_list[i]
         key_val = calculate_average(key_state)
+
         j = i - 1
         while j >= 0 and calculate_average(sorted_list[j]) < key_val:
             sorted_list[j + 1] = sorted_list[j]
             j -= 1
         sorted_list[j+1] = key_state
 
-    return [sorted_list[-1],sorted_list[-2],sorted_list[-3]]
+    return [sorted_list[0],sorted_list[1],sorted_list[2]]
 
 #identifies the state type has "less" or "more" access than average
-def check_state(places: list[data.State]) -> str:  #Vidushi Goyal
+def check_state(places: list[data.State], number:int) -> str:  #Vidushi Goyal
     overall_avg = calculate_average(places)
-    result_names = []
+    result_names = ""
     for place in places:
         place_avg = calculate_average(place)
         if place_avg > overall_avg:
