@@ -20,6 +20,7 @@ def calculate_total(places) -> float: #Roxanne Chambers
         return total
 
 def multi_total(places) -> float: #Roxanne Chambers
+    #returns the % of the total of multi households with access
     total = 0
     totalPpl = 0
     if type(places) == list:
@@ -29,12 +30,13 @@ def multi_total(places) -> float: #Roxanne Chambers
         return total/totalPpl
     elif type(places) == data.State:
         total += (places.multi_household * places.multi_access)
-        totalPpl += place.multi_household
+        totalPpl += places.multi_household
         return total/totalPpl
     else:
         return total
 
 def single_total(places) -> float: #Roxanne Chambers
+    # returns the % of the total of single households with access
     total = 0
     totalPpl = 0
     if type(places) == list:
@@ -49,11 +51,7 @@ def single_total(places) -> float: #Roxanne Chambers
     else:
         return total
 
-# EXAMPLES FOR calculate_total
-#print("Total in",data.allData[2].state_name,calculate_total(data.allData[2]))
-#print("Total for all:"calculate_total(data.allData))
-
-def calculate_average(places) -> float:
+def calculate_average(places) -> float: #Vidushi Goyal
     #Returns average % access from all states
     totalPpl = 0
     totaAccess = 0
@@ -72,22 +70,7 @@ def calculate_average(places) -> float:
     else:
         return perc
 
-# EXAMPLES FOR calculate_average
-# print("Average % in",data.allData[2].state_name,calculate_average(data.allData[2]))
-# print("Average % for all states:",calculate_average(data.allData))
-
-#identifies the 3 highest  states with access
-# def find_highest(places) -> list:  #Vidushi Goyal
-#     sorted_list = []
-#     for i in range (1,len(sorted_list)):
-#         key_state = sorted_list[i]
-#         key_val = calculate_average(key_state)
-#         j = i - 1
-#         while j>= 0 and calculate_average(sorted_list[j]) > key_val:
-#             sorted_list[j + 1] = key_state
-#
-#     return [sorted_list[-1],sorted_list[-2],sorted_list[-3]]
-
+#identifies the 3 highest states with access
 def find_highest2(places) -> list:  #Vidushi Goyal
     sorted_list = [places[0],places[1],places[2]]
     for i in range (3,len(places)):
@@ -99,6 +82,7 @@ def find_highest2(places) -> list:  #Vidushi Goyal
             sorted_list[2] = places[i]
     return sorted_list
 
+#identifies the 3 lowest states with access
 def find_lowest2(places) -> list:  #Vidushi Goyal
     sorted_list = [places[0],places[1],places[2]]
     for i in range (3,len(places)):
@@ -110,23 +94,8 @@ def find_lowest2(places) -> list:  #Vidushi Goyal
             sorted_list[2] = places[i]
     return sorted_list
 
-#identifies the 3 lowest states with access
-
-# def find_lowest(places) -> list:  #Vidushi Goyal
-#     sorted_list = []
-#     for i in range (1,len(sorted_list)):
-#         key_state = sorted_list[i]
-#         key_val = calculate_average(key_state)
-#
-#         j = i - 1
-#         while j >= 0 and calculate_average(sorted_list[j]) < key_val:
-#             sorted_list[j + 1] = sorted_list[j]
-#             j -= 1
-#         sorted_list[j+1] = key_state
-#     return [sorted_list[0],sorted_list[1],sorted_list[2]]
-
 #identifies the state type has "less" or "more" access than average
-def check_state(places: list[data.State]) -> str:  #Vidushi Goyal
+def check_state(places: list[data.State]):  #Vidushi Goyal
     overall_avg = calculate_average(places)
     result_names = {}
     for place in places:

@@ -4,7 +4,7 @@ import main
 allData = data.allData
 #TEST FILE
 
-class TestCases(unittest.TestCase): #Vidushi Goyal #not sure why tests are not working will still make all tests
+class TestCases(unittest.TestCase): #Vidushi Goyal
 
     def test_calculate_total1(self):
         result = main.calculate_total(data.allData[0]) #testing Albama
@@ -30,11 +30,11 @@ class TestCases(unittest.TestCase): #Vidushi Goyal #not sure why tests are not w
         result = main.calculate_average(data.allData)
         self.assertAlmostEqual(result, 72.61,2)
 
-    def test_multi_total(self): #Roxanne Chambers
+    def test_multi_total(self):
         result = main.multi_total(data.allData)
         self.assertAlmostEqual(result, 36.398061505161344)
 
-    def test_single_total(self): #Roxanne Chambers
+    def test_single_total(self):
         result = main.single_total(data.allData)
         self.assertAlmostEqual(result, 84.71105956036557)
 

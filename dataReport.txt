@@ -1,0 +1,459 @@
+Alabama: 
+Total Households in state: 1888368
+Total Households with Access: 48.58 % 
+Single Households with Access: 61 % 
+Multi Households with Access: 10 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Alaska: 
+Total Households in state: 257985
+Total Households with Access: 76.75 % 
+Single Households with Access: 90 % 
+Multi Households with Access: 18 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Arizona: 
+Total Households in state: 2643332
+Total Households with Access: 68.39 % 
+Single Households with Access: 88 % 
+Multi Households with Access: 11 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Arkansas: 
+Total Households in state: 1170411
+Total Households with Access: 65.11 % 
+Single Households with Access: 79 % 
+Multi Households with Access: 14 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+California: 
+Total Households in state: 13102481
+Total Households with Access: 94.76 % 
+Single Households with Access: 97 % 
+Multi Households with Access: 89 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Colorado: 
+Total Households in state: 2137226
+Total Households with Access: 45.43 % 
+Single Households with Access: 57 % 
+Multi Households with Access: 12 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Connecticut: 
+Total Households in state: 1385305
+Total Households with Access: 90.89 % 
+Single Households with Access: 93 % 
+Multi Households with Access: 82 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Delaware: 
+Total Households in state: 370938
+Total Households with Access: 96.73 % 
+Single Households with Access: 99 % 
+Multi Households with Access: 89 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: True
+Is in lower 3 states with access: False
+
+Florida: 
+Total Households in state: 7930972
+Total Households with Access: 65.48 % 
+Single Households with Access: 90 % 
+Multi Households with Access: 16 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Georgia: 
+Total Households in state: 3829948
+Total Households with Access: 61.73 % 
+Single Households with Access: 76 % 
+Multi Households with Access: 19 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Hawaii: 
+Total Households in state: 467927
+Total Households with Access: 63.97 % 
+Single Households with Access: 82 % 
+Multi Households with Access: 25 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Idaho: 
+Total Households in state: 649222
+Total Households with Access: 64.59 % 
+Single Households with Access: 76 % 
+Multi Households with Access: 10 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Illinois: 
+Total Households in state: 4883680
+Total Households with Access: 74.32 % 
+Single Households with Access: 85 % 
+Multi Households with Access: 41 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Indiana: 
+Total Households in state: 2602538
+Total Households with Access: 66.11 % 
+Single Households with Access: 79 % 
+Multi Households with Access: 11 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Iowa: 
+Total Households in state: 1273759
+Total Households with Access: 64.34 % 
+Single Households with Access: 75 % 
+Multi Households with Access: 19 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Kansas: 
+Total Households in state: 1141822
+Total Households with Access: 59.84 % 
+Single Households with Access: 69 % 
+Multi Households with Access: 17 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Kentucky: 
+Total Households in state: 1747835
+Total Households with Access: 58.99 % 
+Single Households with Access: 74 % 
+Multi Households with Access: 8 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Louisiana: 
+Total Households in state: 1751857
+Total Households with Access: 42.8 % 
+Single Households with Access: 54 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Maine: 
+Total Households in state: 569443
+Total Households with Access: 77.81 % 
+Single Households with Access: 94 % 
+Multi Households with Access: 8 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Maryland: 
+Total Households in state: 2230445
+Total Households with Access: 95.47 % 
+Single Households with Access: 98 % 
+Multi Households with Access: 88 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: True
+Is in lower 3 states with access: False
+
+Massachusetts: 
+Total Households in state: 2646739
+Total Households with Access: 82.16 % 
+Single Households with Access: 93 % 
+Multi Households with Access: 46 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Michigan: 
+Total Households in state: 3979983
+Total Households with Access: 68.28 % 
+Single Households with Access: 82 % 
+Multi Households with Access: 11 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Minnesota: 
+Total Households in state: 2207761
+Total Households with Access: 69.93 % 
+Single Households with Access: 81 % 
+Multi Households with Access: 33 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Mississippi: 
+Total Households in state: 1116520
+Total Households with Access: 37.39 % 
+Single Households with Access: 47 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Missouri: 
+Total Households in state: 2439986
+Total Households with Access: 56.37 % 
+Single Households with Access: 68 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Montana: 
+Total Households in state: 435974
+Total Households with Access: 41.8 % 
+Single Households with Access: 51 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: True
+
+Nebraska: 
+Total Households in state: 766528
+Total Households with Access: 43.39 % 
+Single Households with Access: 52 % 
+Multi Households with Access: 11 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: True
+
+Nevada: 
+Total Households in state: 1129965
+Total Households with Access: 65.47 % 
+Single Households with Access: 80 % 
+Multi Households with Access: 27 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+New Hampshire: 
+Total Households in state: 539037
+Total Households with Access: 74.67 % 
+Single Households with Access: 95 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+New Jersey: 
+Total Households in state: 3271674
+Total Households with Access: 77.62 % 
+Single Households with Access: 94 % 
+Multi Households with Access: 20 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+New Mexico: 
+Total Households in state: 792676
+Total Households with Access: 79.3 % 
+Single Households with Access: 95 % 
+Multi Households with Access: 32 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+New York: 
+Total Households in state: 7416752
+Total Households with Access: 89.54 % 
+Single Households with Access: 91 % 
+Multi Households with Access: 87 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+North Carolina: 
+Total Households in state: 4031325
+Total Households with Access: 74.27 % 
+Single Households with Access: 95 % 
+Multi Households with Access: 15 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+North Dakota: 
+Total Households in state: 320807
+Total Households with Access: 33.83 % 
+Single Households with Access: 49 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: True
+
+Ohio: 
+Total Households in state: 4716881
+Total Households with Access: 75.93 % 
+Single Households with Access: 92 % 
+Multi Households with Access: 8 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Oklahoma: 
+Total Households in state: 1493443
+Total Households with Access: 47.7 % 
+Single Households with Access: 57 % 
+Multi Households with Access: 11 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Oregon: 
+Total Households in state: 1642451
+Total Households with Access: 88.98 % 
+Single Households with Access: 90 % 
+Multi Households with Access: 86 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Pennsylvania: 
+Total Households in state: 5106025
+Total Households with Access: 81.82 % 
+Single Households with Access: 95 % 
+Multi Households with Access: 15 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Rhode Island: 
+Total Households in state: 414692
+Total Households with Access: 80.45 % 
+Single Households with Access: 97 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+South Carolina: 
+Total Households in state: 1961330
+Total Households with Access: 72.01 % 
+Single Households with Access: 97 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+South Dakota: 
+Total Households in state: 347797
+Total Households with Access: 46.12 % 
+Single Households with Access: 52 % 
+Multi Households with Access: 29 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Tennessee: 
+Total Households in state: 2639252
+Total Households with Access: 62.94 % 
+Single Households with Access: 80 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Texas: 
+Total Households in state: 9905547
+Total Households with Access: 63.89 % 
+Single Households with Access: 81 % 
+Multi Households with Access: 20 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Utah: 
+Total Households in state: 1003243
+Total Households with Access: 69.6 % 
+Single Households with Access: 81 % 
+Multi Households with Access: 20 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Vermont: 
+Total Households in state: 262802
+Total Households with Access: 92.04 % 
+Single Households with Access: 93 % 
+Multi Households with Access: 88 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: True
+Is in lower 3 states with access: False
+
+Virginia: 
+Total Households in state: 3186493
+Total Households with Access: 65.24 % 
+Single Households with Access: 80 % 
+Multi Households with Access: 16 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Washington: 
+Total Households in state: 2905616
+Total Households with Access: 74.54 % 
+Single Households with Access: 91 % 
+Multi Households with Access: 33 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+West Virginia: 
+Total Households in state: 734151
+Total Households with Access: 67.54 % 
+Single Households with Access: 84 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Wisconsin: 
+Total Households in state: 2377678
+Total Households with Access: 84.58 % 
+Single Households with Access: 88 % 
+Multi Households with Access: 72 % 
+Is in upper half of states with access: True
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Wyoming: 
+Total Households in state: 233189
+Total Households with Access: 56.51 % 
+Single Households with Access: 70 % 
+Multi Households with Access: 6 % 
+Is in upper half of states with access: False
+Is in top 3 States with access: False
+Is in lower 3 states with access: False
+
+Average Household with Access (all Households):72.6 % 
+Average Household with Access (multi Households):36.4 % 
+Average Households with Access (single-family Households): 84.7 % 
+Overall states with best Access: Delaware, Maryland, Vermont
+Overall states with worst Access: North Dakota, Montana, Nebraska
+
+
+Sustainability tip: 
+Make sure your containers are clean before recycling them!

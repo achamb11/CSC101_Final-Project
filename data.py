@@ -1,6 +1,6 @@
 
 # Data is taken from: The Recycling Partnership: "State of Residential Recycling 2024"
-
+# Roxanne Chambers
 class State:
 
     def __init__(self, state_name, single_household, multi_household, single_access, multi_access): #Roxanne Chambers

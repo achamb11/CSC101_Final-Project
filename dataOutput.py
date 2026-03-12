@@ -1,6 +1,5 @@
 import main
 import data
-from main import calculate_average
 
 #Roxanne Chambers
 def print_output() -> str:
@@ -47,7 +46,10 @@ def print_output() -> str:
     output += "Sustainability tip: \nMake sure your containers are clean before recycling them!"
     return output
 
-print(print_output())
+
+#Vidushi Goyal
+with open("dataReport.txt", "w") as file:
+    file.write(print_output())
 
 
 
